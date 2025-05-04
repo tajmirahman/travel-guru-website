@@ -13,6 +13,7 @@ const MainLayout = () => {
                 backgroundImage: `url(${backgroundImage})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
+                height: '350px'
             }}
         >
             <Header />

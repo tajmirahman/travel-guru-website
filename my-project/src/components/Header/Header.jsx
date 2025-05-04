@@ -1,6 +1,6 @@
 import React from 'react';
 import logoImg from '../../assets/images/logoTravel.avif'
-import {  NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Header.css'
 
 
@@ -9,7 +9,7 @@ const Header = () => {
         <div className="navbar gap-2">
             <div className="navbar-start ">
                 <div className="dropdown md:hidden">
-                    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+                    <div tabIndex={0} role="button" className="btn btn-white btn-circle">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5"
@@ -25,20 +25,21 @@ const Header = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>Homepage</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>About</a></li>
+                        className="menu menu-sm dropdown-content bg-sky-400 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <NavLink to={'/news'}>News</NavLink>
+                        <NavLink to={'/destination'}>Destination</NavLink>
+                        <NavLink to={'/blog'}>Blog</NavLink>
+                        <NavLink to={'/contact'}>Contact</NavLink>
                     </ul>
                 </div>
                 <div>
-                    <figure className='w-10 h-10'>
+                    <figure className='w-10 h-10 hidden md:block'>
                         <img className='w-10 h-10 object-cover' src={logoImg} alt="" />
                     </figure>
                 </div>
             </div>
 
-            <div className="navbar-center gap-2">
+            <div className="navbar-center gap-2 hidden md:block">
                 <NavLink to={'/news'}>News</NavLink>
                 <NavLink to={'/destination'}>Destination</NavLink>
                 <NavLink to={'/blog'}>Blog</NavLink>
@@ -46,7 +47,7 @@ const Header = () => {
             </div>
             <div className="navbar-end gap-2">
                 <div className="">
-                    <input type="text" placeholder="Search" className="text-center border-2 border-gray-200" />
+                    <input type="text" placeholder="Search" className="text-center border-2 border-gray-200 w-36 " />
                 </div>
                 <div>
                     <button className='btn'>Login</button>
