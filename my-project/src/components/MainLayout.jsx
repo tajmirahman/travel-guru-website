@@ -3,6 +3,7 @@ import Header from './Header/Header';
 import { Outlet } from 'react-router-dom';
 import Navber from './Navber';
 import backgroundImage from '../assets/images/Rectangle 1.png'
+import Destination from './Pages/Destination';
 
 
 const MainLayout = () => {
@@ -18,6 +19,9 @@ const MainLayout = () => {
                 <Header />
                 <Navber />
             </div>
+
+            <Outlet></Outlet>
+            <Destination></Destination>
 
         </div>
 

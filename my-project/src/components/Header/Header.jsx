@@ -33,7 +33,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div>
-                    <figure className='w-10 h-10 hidden md:block'>
+                    <figure className='w-10 h-10 hidden md:block '>
                         <img className='w-10 h-10 object-cover' src={logoImg} alt="" />
                     </figure>
                 </div>
