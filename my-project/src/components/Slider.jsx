@@ -7,16 +7,16 @@ const Slider = () => {
     return (
         <div className="carousel w-full">
             <div id="slide1" className="carousel-item relative w-full ">
-                <div className='w-[150px] h-[200px] mx-auto relative border-2 border-sky-500 hover:border-yellow-300 overflow-hidden'>
+                <div className='w-full h-[300px]  mx-auto relative border-2 border-sky-500 hover:border-yellow-300 overflow-hidden'>
                     <div >
-                        <figure className='w-[150px] h-[200px]'>
+                        <figure className='w-full h-[300px]'>
                             <img
                                 src={coxsImg}
-                                className="w-[150px] h-[200px] object-cover" />
+                                className="w-full h-[300px] object-cover" />
                         </figure>
                     </div>
-                    <div className='absolute top-40'>
-                        <h1 className='text-white font-bold uppercase '>Cox's Bazar</h1>
+                    <div className='absolute top-56'>
+                        <h1 className='text-2xl text-white font-bold uppercase '>Cox's Bazar</h1>
                     </div>
 
                 </div>
@@ -26,16 +26,16 @@ const Slider = () => {
                 </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
-            <div className='w-[150px] h-[200px] mx-auto relative border-2 border-sky-500 hover:border-yellow-300 overflow-hidden'>
+            <div className='w-full h-[300px] mx-auto relative border-2 border-sky-500 hover:border-yellow-300 overflow-hidden'>
                     <div >
-                        <figure className='w-[150px] h-[200px]'>
+                        <figure className='w-full h-[300px]'>
                             <img
                                 src={sunDorBon}
-                                className="w-[150px] h-[200px] object-cover" />
+                                className="w-full h-[300px]object-cover" />
                         </figure>
                     </div>
-                    <div className='absolute top-40'>
-                        <h1 className='text-white font-bold uppercase '>Sundarbans</h1>
+                    <div className='absolute top-56'>
+                        <h1 className='text-2xl text-white font-bold uppercase '>Sundarbans</h1>
                     </div>
 
                 </div>
@@ -45,16 +45,16 @@ const Slider = () => {
                 </div>
             </div>
             <div id="slide3" className="carousel-item relative w-full">
-            <div className='w-[150px] h-[200px] mx-auto relative border-2 border-sky-500 hover:border-yellow-300 overflow-hidden'>
+            <div className='w-full h-[300px] mx-auto relative border-2 border-sky-500 hover:border-yellow-300 overflow-hidden'>
                     <div >
-                        <figure className='w-[150px] h-[200px]'>
+                        <figure className='w-full h-[300px]'>
                             <img
                                 src={sriMongol}
-                                className="w-[150px] h-[200px] object-cover" />
+                                className="w-full h-[300px] object-cover" />
                         </figure>
                     </div>
-                    <div className='absolute top-40'>
-                        <h1 className='text-white font-bold uppercase '>Sreemangal</h1>
+                    <div className='absolute top-56'>
+                        <h1 className='text-2xl text-white font-bold uppercase '>Sreemangal</h1>
                     </div>
 
                 </div>

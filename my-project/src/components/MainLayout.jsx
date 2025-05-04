@@ -10,7 +10,7 @@ const MainLayout = () => {
     return (
         <div className='w-11/12 mx-auto'>
             <div
-                className="bg-cover bg-center  md:h-[350px] md:px-6"
+                className="bg-cover bg-center  md:h-[500px] md:px-6"
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
 
