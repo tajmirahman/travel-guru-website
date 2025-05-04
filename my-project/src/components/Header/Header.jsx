@@ -3,9 +3,10 @@ import logoImg from '../../assets/images/logoTravel.avif'
 import {  NavLink } from 'react-router-dom';
 import './Header.css'
 
+
 const Header = () => {
     return (
-        <div className="navbar bg-sky-500 gap-2">
+        <div className="navbar gap-2">
             <div className="navbar-start ">
                 <div className="dropdown md:hidden">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">

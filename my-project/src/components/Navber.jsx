@@ -7,17 +7,17 @@ const Navber = () => {
     return (
         <div className='flex justify-between items-center gap-2 mt-3'>
             <div className='space-y-2'>
-                <h1 className='text-3xl font-bold'>Cox'S Bazar</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi ratione beatae libero voluptates atque, hic impedit distinctio labore perspiciatis?</p>
-                <button className='btn'>Book Now</button>
+                <h1 className='text-3xl font-bold text-white'>Cox'S Bazar</h1>
+                <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi ratione beatae libero voluptates atque, hic impedit distinctio labore perspiciatis?</p>
+                <button className='btn btn-warning'>Book Now</button>
             </div>
             <div className="carousel w-full">
-                <div id="slide1" className="carousel-item relative w-full">
+                <div id="slide1" className="carousel-item relative w-full h-[100px]">
                     <div className='relative'>
-                        <div className="w-full h-[300px]">
+                        <div className="w-[150px] h-[200px]">
                             <img
                                 src={coxsImg}
-                                className="w-full h-[300px] object-cover" />
+                                className="w-[150px] h-[200px] object-cover" />
                         </div>
                         <div className='absolute top-56 left-2'>
                             <h2 className='text-xl font-bold uppercase text-white'>Cox's Bazar</h2>
