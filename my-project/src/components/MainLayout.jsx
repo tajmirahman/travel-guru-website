@@ -8,20 +8,19 @@ import backgroundImage from '../assets/images/Rectangle 1.png'
 const MainLayout = () => {
     return (
         <div className='w-11/12 mx-auto'>
-        <div
-            style={{
-                backgroundImage: `url(${backgroundImage})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                height: '350px'
-            }}
-        >
-            <Header />
-            <Navber />
+            <div
+                className="bg-cover bg-center  md:h-[350px] md:px-6"
+                style={{
+                    backgroundImage: `url(${backgroundImage})`,
+
+                }}
+            >
+                <Header />
+                <Navber />
+            </div>
+
         </div>
-        <Outlet />
-    </div>
-    
+
     );
 };
 

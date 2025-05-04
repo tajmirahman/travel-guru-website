@@ -6,7 +6,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className="navbar gap-2">
+        <div className="navbar gap-2 ">
             <div className="navbar-start ">
                 <div className="dropdown md:hidden">
                     <div tabIndex={0} role="button" className="btn btn-white btn-circle">
@@ -39,7 +39,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className="navbar-center gap-2 hidden md:block">
+            <div className="navbar-center gap-2 hidden md:block text-white space-x-2 ">
                 <NavLink to={'/news'}>News</NavLink>
                 <NavLink to={'/destination'}>Destination</NavLink>
                 <NavLink to={'/blog'}>Blog</NavLink>
@@ -50,7 +50,7 @@ const Header = () => {
                     <input type="text" placeholder="Search" className="text-center border-2 border-gray-200 w-36 " />
                 </div>
                 <div>
-                    <button className='btn'>Login</button>
+                    <button className='py-1 px-2 bg-yellow-300'>Login</button>
                 </div>
             </div>
         </div>
