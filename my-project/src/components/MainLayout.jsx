@@ -1,10 +1,15 @@
 import React from 'react';
-import Header from './Header';
+import Header from './Header/Header';
+import { Outlet } from 'react-router-dom';
+import Navber from './Navber';
+
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className='w-11/12 mx-auto'>
             <Header></Header>
+            <Navber></Navber>
+            <Outlet></Outlet>
         </div>
     );
 };

@@ -1,10 +1,11 @@
 import React from 'react';
-import logoImg from '../assets/images/icons/logoTravel.avif'
-import { Link } from 'react-router-dom';
+import logoImg from '../../assets/images/logoTravel.avif'
+import {  NavLink } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-sky-500 gap-2">
             <div className="navbar-start ">
                 <div className="dropdown md:hidden">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -30,17 +31,17 @@ const Header = () => {
                     </ul>
                 </div>
                 <div>
-                    <figure className='w-20 h-20'>
-                        <img className='w-20 h-20 object-cover' src={logoImg} alt="" />
+                    <figure className='w-10 h-10'>
+                        <img className='w-10 h-10 object-cover' src={logoImg} alt="" />
                     </figure>
                 </div>
             </div>
 
             <div className="navbar-center gap-2">
-                <Link to={'/news'}>News</Link>
-                <Link to={'/destination'}>Destination</Link>
-                <Link to={'/blog'}>Blog</Link>
-                <Link to={'/contact'}>Contact</Link>
+                <NavLink to={'/news'}>News</NavLink>
+                <NavLink to={'/destination'}>Destination</NavLink>
+                <NavLink to={'/blog'}>Blog</NavLink>
+                <NavLink to={'/contact'}>Contact</NavLink>
             </div>
             <div className="navbar-end gap-2">
                 <div className="">
