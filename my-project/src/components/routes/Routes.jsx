@@ -11,17 +11,17 @@ const routes= createBrowserRouter([
             {
                 path:'/',
                 element:<Home></Home>,
+                loader:()=> fetch('/categoryData.json')
                 
             },
             {
                 path:'/destination',
-                element:<Destination></Destination>
+                element:<Destination></Destination>,
+                
             }
-            
-            
-
         ]
     },
+    
     
 ])
 
