@@ -2,7 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../MainLayout";
 import Home from "../Home";
 import CategoryCard from "../CategoryCard";
-import CardDetails from "../Pages/CardDetails";
+import CardDetails from "../Pages/CardDetails/CardDetails";
+import { hotelDetailsLoader } from "../../loader";
 
 const routes = createBrowserRouter([
     {
@@ -28,7 +29,7 @@ const routes = createBrowserRouter([
     {
         path: '/tour/details/:id',
         element: <CardDetails></CardDetails>,
-        loader: ()=> fetch('../hotelData.json')
+        loader: hotelDetailsLoader,
     }
 
 
