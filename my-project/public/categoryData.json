@@ -1,19 +1,23 @@
 [
     {
-      "categoryId": "cat001",
-      "categoryName": "Hotel"
+      "id": "cat001",
+      "category": "Hotel",
+      "slug": "hotel"
     },
     {
-      "categoryId": "cat002",
-      "categoryName": "Tour"
+      "id": "cat002",
+      "category": "Tour",
+      "slug": "tour"
     },
     {
-      "categoryId": "cat003",
-      "categoryName": "Space"
+      "id": "cat003",
+      "category": "Space",
+      "slug": "space"
     },
     {
-      "categoryId": "cat004",
-      "categoryName": "Event"
+      "id": "cat004",
+      "category": "Event",
+      "slug": "event"
     }
   ]
   
