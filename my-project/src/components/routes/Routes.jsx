@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../MainLayout";
 import Home from "../Home";
 import CategoryCard from "../CategoryCard";
+import CardDetails from "../Pages/CardDetails";
 
 const routes = createBrowserRouter([
     {
@@ -11,18 +12,25 @@ const routes = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>,
-                loader: ()=> fetch('/categoryData.json'),
+                loader: () => fetch('../categoryData.json'),
                 children: [
                     {
-                        path:'/category/:categoryName',
-                        element:<CategoryCard></CategoryCard>
-                    }
+                        path: '/category/:category',
+                        element: <CategoryCard></CategoryCard>,
+                        loader: () => fetch('../hotelData.json')
+                    },
+
                 ]
             }
-            
+
         ]
     },
-    
+    {
+        path: '/tour/details/:id',
+        element: <CardDetails></CardDetails>,
+        loader: ()=> fetch('../hotelData.json')
+    }
+
 
 
 

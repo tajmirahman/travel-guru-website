@@ -64,7 +64,7 @@
       "title": "Urban Nest Hotel",
       "image": "https://i.ibb.co.com/ycpnRmHY/511665197.jpg",
       "cost": 95,
-      "category": "Hotel",
+      "category": "Tour",
       "rating": 4.1,
       "location": "Seattle, USA",
       "description": "A trendy boutique hotel in the city center with stylish rooms and friendly service."
@@ -74,7 +74,7 @@
       "title": "Coastal Breeze Inn",
       "image": "https://i.ibb.co.com/chN7XMn6/373581cd.webp",
       "cost": 85,
-      "category": "Hotel",
+      "category": "Tour",
       "rating": 3.9,
       "location": "San Diego, USA",
       "description": "Charming seaside inn just steps from the beach, offering relaxing stays."
@@ -84,7 +84,7 @@
       "title": "Royal Garden Suites",
       "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
       "cost": 150,
-      "category": "Hotel",
+      "category": "Space",
       "rating": 4.6,
       "location": "Miami, USA",
       "description": "Elegant and luxurious hotel with a garden view and top-class services."
@@ -94,7 +94,7 @@
       "title": "Aurora Sky Hotel",
       "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
       "cost": 170,
-      "category": "Hotel",
+      "category": "Space",
       "rating": 4.8,
       "location": "Anchorage, USA",
       "description": "Experience the Northern Lights in comfort at this beautifully located hotel."
